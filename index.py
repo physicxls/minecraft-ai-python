@@ -2,12 +2,10 @@ import boto3
 import inspect
 import json
 import logging
-import minecraft_data
 import math
 from javascript import require, On, AsyncTask, Once
 from context.advanced import prompt
 from helper.text_handler import *
-from vec3 import *
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
